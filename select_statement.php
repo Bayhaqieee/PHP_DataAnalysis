@@ -1,4 +1,11 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Statement</title>
+</head>
+<body>
 <?php
 // Query untuk menampilkan semua data dari tabel ms_produk
 select * from ms_produk;
@@ -33,3 +40,7 @@ select * from ms_produk t2;
 // Query untuk menampilkan data nama_produk dan harga dari tabel ms_produk dengan menggunakan alias
 select t2.nama_produk, t2.harga from ms_produk t2;
 ?>
+    
+</body>
+</html>
+
