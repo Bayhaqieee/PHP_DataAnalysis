@@ -1,0 +1,2 @@
+    -- 1. Menampilkan data pelanggan yang memiliki total pembelian lebih dari 100000
+    select kode_pelanggan, nama_produk, qty, harga, qty*harga AS total from tr_penjualan where qty*harga >= 100000 ORDER BY total DESC;

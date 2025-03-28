@@ -1,0 +1,2 @@
+-- Write a SQL query to display the first name using UPPER and last name using LOWER of all students in upper case.
+select StudentID, UPPER(FirstName) as FirstName, LOWER(LastName) as LastName from students;
